@@ -4,7 +4,7 @@ from buzz import generator
 
 application = Flask(__name__)
 
-@app.route("/")
+@application.route("/")
 def generate_buzz():
     page = '<html><body><h1>'
     page += generator.generate_buzz()
