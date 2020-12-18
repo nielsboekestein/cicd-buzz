@@ -16,3 +16,4 @@ six
 wcwidth
 werkzeug
 zipp
+app
