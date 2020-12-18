@@ -7,7 +7,7 @@ itsdangerous
 Jinja2
 MarkupSafe
 more-itertools
-packanging
+packaging
 pluggy
 py
 pyparsing
