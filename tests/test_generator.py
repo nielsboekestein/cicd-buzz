@@ -3,7 +3,7 @@ from buzz import generator
 
 def test_sample_single_word():
     een = ('foo', 'bar', 'foobar')
-    word = generator.sample(l)
+    word = generator.sample(een)
     assert word in een
 
 
