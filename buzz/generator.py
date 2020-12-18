@@ -6,9 +6,9 @@ adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
 adverbs = ('remarkably', 'enormously', 'substantially', 'significantly', 'seriously')
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
-def sample(l, n = 1):
-    result = random.sample(l, n)
-    if n == 1:
+def sample(een, n = 1):
+    result = random.sample(een, n)
+    if n == een:
         return result[0]
     return result
 
