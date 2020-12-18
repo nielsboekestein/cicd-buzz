@@ -9,7 +9,7 @@ def test_sample_single_word():
 
 def test_sample_multiple_words():
     een = ('foo', 'bar', 'foobar')
-    words = generator.sample(l, 2)
+    words = generator.sample(een, 2)
     assert len(words) == 2
     assert words[0] in een
     assert words[1] in een
